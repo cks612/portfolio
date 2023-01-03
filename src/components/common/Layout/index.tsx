@@ -7,11 +7,11 @@ interface childrenProps {
 }
 const Layout: FC<childrenProps> = ({ children }) => {
   return (
-    <>
+    <div className="bg-primary">
       <Gnb />
       <div>{children}</div>
       <Footer />
-    </>
+    </div>
   );
 };
 
