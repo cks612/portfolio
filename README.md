@@ -1,36 +1,46 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# **My-Rss-Feed Blog**
 
-## Getting Started
+![Next Version][next-image]
+![React Version][react-image]
+[![Build Status][travis-image]][travis-url]
 
-First, run the development server:
+## 링크 : <https://voyage-portfolio.vercel.app>
 
-```bash
-npm run dev
-# or
-yarn dev
+### 개인 포트폴리오를 구성하고자 만든 사이트입니다.
+
+<br />
+
+## **실행 방법**
+
+### Terminal:
+
+```sh
+- npm install
+
+- npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## **기술 스택**
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+```
+1. Next.js
+2. React.js
+3. Typescript
+4. Axios
+5. Tailwind Css
+6. Notion API
+7. Lottie Files
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+## 정보
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+최규성 – [@깃허브](https://github.com/cks612)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+[https://github.com/cks612](https://github.com/cks612)
 
-## Learn More
+<!-- Markdown link & img dfn's -->
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+[next-image]: https://img.shields.io/badge/Next-13.1.1-white
+[react-image]: https://img.shields.io/badge/React-v18.2.0-lightblue
+[travis-image]: https://img.shields.io/travis/dbader/node-datadog-metrics/master.svg?style=flat-square
+[travis-url]: https://travis-ci.org/dbader/node-datadog-metrics

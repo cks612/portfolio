@@ -12,6 +12,7 @@ const ProjectItem = ({ data }: { data: projectProps }) => {
   const tags = data.properties.Skills.multi_select;
   const start = data.properties.Dates.date.start;
   const end = data.properties.Dates.date.end;
+  const notionUrl = data.url;
 
   const calculatedPeriod = (start: any, end: any) => {
     const startDateStringArray = start.split("-");
@@ -37,16 +38,20 @@ const ProjectItem = ({ data }: { data: projectProps }) => {
 
   return (
     <div className="project-card ">
-      <Image
-        className="rounded-t-xl"
-        src={imgSrc}
-        width={100}
-        height={50}
-        objectFit="cover"
-        layout="responsive"
-        quality={100}
-        alt="coverImg"
-      />
+      <Link href={notionUrl}>
+        <Image
+          className="rounded-t-xl"
+          src={imgSrc}
+          width={100}
+          height={50}
+          objectFit="cover"
+          layout="responsive"
+          quality={100}
+          alt="coverImg"
+          priority
+        />
+      </Link>
+
       <div className="p-4 flex flex-col">
         <h1 className="text-2xl font-bold">{title}</h1>
         <h3 className="mt-4 text-xl">{description}</h3>
