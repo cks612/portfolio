@@ -14,7 +14,6 @@ const nextConfig = {
         hostname: "**",
       },
     ],
-    format: ["image/png", "image/webp", "image/jpeg"],
   },
 };
 
